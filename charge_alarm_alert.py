@@ -2,3 +2,9 @@ import os
 import time  
 from PIL import Image, ImageTk
 import tkinter as tk          # tkinter imported
+# Widgets are positioned with one of the geometry managers Place, Pack
+# or Grid. These managers can be called with methods place, pack, grid
+# available in every Widget.
+
+
+
