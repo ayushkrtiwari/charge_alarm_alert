@@ -9,5 +9,6 @@ import tkinter as tk          # tkinter imported
 # Actions are bound to events by resources (e.g. keyword argument
 # command) or with the method bind.
 
+# Example (Hello, World):
 
 
