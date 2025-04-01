@@ -1,2 +1,3 @@
-import os # OS module imported
-import time # Time Module imported
+import os
+import time  # Import the time module
+from PIL import Image, ImageTk
