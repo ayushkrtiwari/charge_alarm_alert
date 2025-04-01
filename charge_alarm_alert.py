@@ -10,5 +10,8 @@ import tkinter as tk          # tkinter imported
 # command) or with the method bind.
 
 # Example (Hello, World):
+# import tkinter
+# from tkinter.constants import *
+
 
 
