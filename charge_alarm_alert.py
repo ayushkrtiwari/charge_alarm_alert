@@ -12,6 +12,6 @@ import tkinter as tk          # tkinter imported
 # Example (Hello, World):
 # import tkinter
 # from tkinter.constants import *
-
+# tk = tkinter.Tk()
 
 
