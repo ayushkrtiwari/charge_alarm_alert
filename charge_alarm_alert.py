@@ -6,5 +6,8 @@ import tkinter as tk          # tkinter imported
 # or Grid. These managers can be called with methods place, pack, grid
 # available in every Widget.
 
+# Actions are bound to events by resources (e.g. keyword argument
+# command) or with the method bind.
+
 
 
