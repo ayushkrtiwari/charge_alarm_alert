@@ -10,4 +10,5 @@ import pygame
 # Initialize pygame mixer
 pygame.mixer.init()
 
-# Application main function code
+class ChargeAlarmApp:
+    
