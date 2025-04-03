@@ -8,3 +8,5 @@ import psutil
 import pygame
 
 # Initialize pygame mixer
+pygame.mixer.init()
+
