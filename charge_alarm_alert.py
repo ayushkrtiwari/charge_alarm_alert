@@ -11,5 +11,6 @@ import pygame
 pygame.mixer.init()
 
 class ChargeAlarmApp:
-    def __init__(self, root): # Base function
+    def __init__(self, root):
+        self.root = root
         
