@@ -6,3 +6,4 @@ from tkinter import messagebox
 from tkinter.ttk import Progressbar
 import psutil
 import pygame
+# Only these libraries to be finalized
