@@ -10,5 +10,6 @@ import pygame
 # Initialize pygame mixer
 pygame.mixer.init()
 
-class ChargeAlarmApp: # class declared
-    
+class ChargeAlarmApp:
+    def __init__(self, root):
+        
