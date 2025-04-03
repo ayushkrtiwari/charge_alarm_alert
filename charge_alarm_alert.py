@@ -3,4 +3,4 @@ import time  # Import the time module
 from PIL import Image, ImageTk
 import tkinter as tk # Control display, positioning, control of widgets. TK is top level widget.
 from tkinter import messagebox
-from tkinter.ttk import Progressbar
+from tkinter.ttk import Progressbar  # will show battery charge percentage
