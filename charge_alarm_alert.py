@@ -16,6 +16,6 @@ class ChargeAlarmApp:
         self.root.title("Charge Alarm")
 
         self.label = tk.Label(root, text="Battery Monitor", font=("Helvetica", 16))
-        self.label.pack(pady=10)
+        self.label.pack(pady=10) # Padding in y-direction
 
         
