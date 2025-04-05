@@ -14,5 +14,5 @@ class ChargeAlarmApp:
     def __init__(self, root):
         self.root = root         
         self.root.title("Charge Alarm")
-        tk.Label()
+        tk.Label(root, text="Battery Monitor", font=("Helvetica", 16))
         
