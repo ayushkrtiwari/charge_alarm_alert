@@ -21,4 +21,4 @@ class ChargeAlarmApp:
         self.battery_image_label = tk.Label(root)
         self.battery_image_label.pack(pady=10)
 
-        tk.Label(root, text="", font=("Helvetica", 14)) # Secondary Label Widget for Parent 'root'
+        self.battery_label = tk.Label(root, text="", font=("Helvetica", 14))
