@@ -18,4 +18,4 @@ class ChargeAlarmApp:
         self.label = tk.Label(root, text="Battery Monitor", font=("Helvetica", 16))
         self.label.pack(pady=10)
 
-        tk.Label(root)
+        tk.Label(root)  # Constructed label Widget with Parent 'root'
