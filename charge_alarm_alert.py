@@ -19,4 +19,4 @@ class ChargeAlarmApp:
         self.label.pack(pady=10)
 
         self.battery_image_label = tk.Label(root)
-        self.battery_image_label.pack(pady=10)
+        self.battery_image_label.pack(pady=10) # Battery Image Widget Pack as padding at y be 10 px
