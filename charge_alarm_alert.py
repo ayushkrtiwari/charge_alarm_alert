@@ -12,7 +12,5 @@ pygame.mixer.init()
 
 class ChargeAlarmApp:
     def __init__(self, root):
-        self.root = root
+        self.root = root         
         self.root.title()
-
-        
