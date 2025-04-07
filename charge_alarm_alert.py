@@ -24,5 +24,7 @@ class ChargeAlarmApp:
         self.battery_label = tk.Label(root, text="", font=("Helvetica", 14))
         self.battery_label.pack(pady=10)
         
-        self.progress = Progressbar(root, orient=tk.HORIZONTAL, length=300, mode='determinate') # Battery progress bar object defined
+        self.progress = Progressbar(root, orient=tk.HORIZONTAL, length=300, mode='determinate')
+        self.progress.pack()
+        
         
