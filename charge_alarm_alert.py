@@ -21,4 +21,7 @@ class ChargeAlarmApp:
         self.battery_image_label = tk.Label(root)
         self.battery_image_label.pack(pady=10)
 
-        self.battery_label = tk.Label(root, text="", font=("Helvetica", 14)) # Stored as self property
+        self.battery_label = tk.Label(root, text="", font=("Helvetica", 14))
+        self.battery_label.pack()
+        
+        
