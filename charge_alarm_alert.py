@@ -22,6 +22,7 @@ class ChargeAlarmApp:
         self.battery_image_label.pack(pady=10)
 
         self.battery_label = tk.Label(root, text="", font=("Helvetica", 14))
-        self.battery_label.pack(pady=10) # Battery label padding by 10
+        self.battery_label.pack(pady=10)
         
+        self.progress = Progressbar()
         
