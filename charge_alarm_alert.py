@@ -28,6 +28,6 @@ class ChargeAlarmApp:
         self.progress.pack(pady=10)
         
         self.start_button = tk.Button(root, text="Start Monitoring", command=self.start_monitoring, font=("Helvetica", 12))
-        self.start_button.pack()
+        self.start_button.pack(pady=5)
 
         
