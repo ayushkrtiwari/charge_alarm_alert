@@ -27,4 +27,7 @@ class ChargeAlarmApp:
         self.progress = Progressbar(root, orient=tk.HORIZONTAL, length=300, mode='determinate')
         self.progress.pack(pady=10)
         
-        self.start_button = tk.Button(root, text="Start Monitoring", command=self.start_monitoring, font=("Helvetica", 12)) # Start Monitoring button added
+        self.start_button = tk.Button(root, text="Start Monitoring", command=self.start_monitoring, font=("Helvetica", 12))
+        self.start_button.pack()
+
+        
