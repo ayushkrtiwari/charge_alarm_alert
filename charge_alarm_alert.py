@@ -27,4 +27,4 @@ class ChargeAlarmApp:
         self.progress = Progressbar(root, orient=tk.HORIZONTAL, length=300, mode='determinate')
         self.progress.pack(pady=10)
         
-        # Buttons to be integrated
+        tk.Button()
