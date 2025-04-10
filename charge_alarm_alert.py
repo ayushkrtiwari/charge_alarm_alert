@@ -31,4 +31,4 @@ class ChargeAlarmApp:
         self.start_button.pack(pady=5)
 
         self.stop_button = tk.Button(root, text="Stop Monitoring", command=self.stop_monitoring, state=tk.DISABLED, font=("Helvetica", 12))
-        self.stop_button.pack(pady=5)
+        self.stop_button.pack(pady=5) # Stop Button Padding by 5
