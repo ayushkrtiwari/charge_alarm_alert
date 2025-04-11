@@ -36,5 +36,6 @@ class ChargeAlarmApp:
         self.stop_alarm_button = tk.Button(root, text="Ctrl+Enter", state=tk.DISABLED, font=("Helvetica", 12))
         self.stop_alarm_button.pack(pady=5)
         
-        # States declared
+        self.is_monitoring = False
+        self.alarm_80_triggered = False # alarm_80_triggered set default false
         
