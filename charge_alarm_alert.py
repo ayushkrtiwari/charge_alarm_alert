@@ -33,5 +33,7 @@ class ChargeAlarmApp:
         self.stop_button = tk.Button(root, text="Stop Monitoring", command=self.stop_monitoring, state=tk.DISABLED, font=("Helvetica", 12))
         self.stop_button.pack(pady=5)
         
-        tk.Button(root, text="Ctrl+Enter", state=tk.DISABLED, font=("Helvetica", 12)) # Alarm Stop shortcut tag
+        self.stop_alarm_button = tk.Button(root, text="Ctrl+Enter", state=tk.DISABLED, font=("Helvetica", 12))
+        self.stop_alarm_button.pack())
+        
         
