@@ -37,5 +37,6 @@ class ChargeAlarmApp:
         self.stop_alarm_button.pack(pady=5)
         
         self.is_monitoring = False
-        self.alarm_80_triggered = False # alarm_80_triggered set default false
+        self.alarm_80_triggered = False
+        self.alarm_90_triggered
         
