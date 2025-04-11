@@ -38,5 +38,5 @@ class ChargeAlarmApp:
         
         self.is_monitoring = False
         self.alarm_80_triggered = False
-        self.alarm_90_triggered
+        self.alarm_90_triggered = False
         
