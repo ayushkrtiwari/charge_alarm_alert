@@ -45,5 +45,6 @@ class ChargeAlarmApp:
 
         # Path to the directory where the executable will be installed
         base_path = os.path.dirname(os.path.abspath(__file__))
+        print()
 
         
