@@ -48,3 +48,8 @@ class ChargeAlarmApp:
         print(f"Base path: {base_path}")
 
         # Above explanation for viewers : OS routines for NT or Posix depending on what system we're on.
+        # Programs that import and use 'os' stand a better chance of being
+        # portable between different platforms. Of course, they must then
+        # only use functions that are defined by all platforms (e.g., unlink
+        # and opendir), and leave all pathname manipulation to os.path
+        # (e.g., split and join).
