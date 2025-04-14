@@ -44,5 +44,6 @@ class ChargeAlarmApp:
         self.alarm_stopped_due_to_disconnection = False  
 
         # Path to the directory where the executable will be installed
-        os.path.dirname()
+        os.path.dirname(os.path.abspath(__file__))
+
         
