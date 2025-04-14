@@ -42,5 +42,6 @@ class ChargeAlarmApp:
         self.alarm_100_triggered = False
         self.charger_disconnected_message_shown = False  
         self.alarm_stopped_due_to_disconnection = False  
+
+        # Path to the directory where the executable will be installed
         
-        # Property default declaration over
