@@ -49,7 +49,9 @@ class ChargeAlarmApp:
 
         # Load images
         try:
-            self.battery_images
+            self.battery_images = {
+                'empty': Image.open()
+            }
             
 
         
