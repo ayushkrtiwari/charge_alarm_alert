@@ -49,4 +49,7 @@ class ChargeAlarmApp:
 
         # Load images
         try:
+            self.battery_images
+            
+
         
