@@ -48,5 +48,5 @@ class ChargeAlarmApp:
         print(f"Base path: {base_path}")
 
         # Load images
-        # Try Catch Throw block for error handling
+        try:
         
