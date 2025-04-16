@@ -49,8 +49,8 @@ class ChargeAlarmApp:
 
         # Load images
         try:
-            self.battery_images = { # Image Module used
-                'empty': Image.open() 
+            self.battery_images = {
+                'empty': Image.open()
             }
             
 
