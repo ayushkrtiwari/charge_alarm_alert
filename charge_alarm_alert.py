@@ -51,6 +51,6 @@ class ChargeAlarmApp:
         try:
             self.battery_images = {
                 'empty': Image.open(os.path.join(base_path, "empty_battery.png")),
-                '50': Image.open(os.path.join()),
+                '50': Image.open(os.path.join(base_path)),
             }
             
