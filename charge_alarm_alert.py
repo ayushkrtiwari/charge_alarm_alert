@@ -53,6 +53,6 @@ class ChargeAlarmApp:
                 'empty': Image.open(os.path.join(base_path, "empty_battery.png")),
                 '50': Image.open(os.path.join(base_path, "battery_50.jpg")),
                 '80': Image.open(os.path.join(base_path, "battery_80.jpg")),
-                '90': Image.open()
+                '90': Image.open(os.path.join)
             }
             
