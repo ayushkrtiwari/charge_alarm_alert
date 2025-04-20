@@ -54,6 +54,6 @@ class ChargeAlarmApp:
                 '50': Image.open(os.path.join(base_path, "battery_50.jpg")),
                 '80': Image.open(os.path.join(base_path, "battery_80.jpg")),
                 '90': Image.open(os.path.join(base_path, "battery_90.png")),
-                'full': Image.open(os.path.join(base_path, "full_battery.jpg")),
+                'full': Image.open(os.path.join(base_path, "full_battery.jpg")), # full_battery.jpg image tuple added to battery_images dict
             }
             
