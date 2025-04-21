@@ -58,5 +58,5 @@ class ChargeAlarmApp:
             }
             self.charger_connected_image = Image.open(os.path.join(base_path, "charger_connected.jpg"))
             self.charger_disconnected_image = Image.open(os.path.join(base_path, "charger_disconnected.png"))
-            print("Images loaded successfully.")
+            print("Images loaded successfully.") # Try block debugging
         
