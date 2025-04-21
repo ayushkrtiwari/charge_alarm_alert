@@ -57,5 +57,5 @@ class ChargeAlarmApp:
                 'full': Image.open(os.path.join(base_path, "full_battery.jpg")),
             }
             self.charger_connected_image = Image.open(os.path.join(base_path, "charger_connected.jpg"))
-            Image.open(os.path.join(base_path))
+            Image.open(os.path.join(base_path, "charger_disconnected.png"))
         
