@@ -60,6 +60,6 @@ class ChargeAlarmApp:
             self.charger_disconnected_image = Image.open(os.path.join(base_path, "charger_disconnected.png"))
             print("Images loaded successfully.")
         except Exception as e:
-            print()
+            print(f"Error loading images: {e}")
 
         
