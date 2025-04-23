@@ -63,5 +63,5 @@ class ChargeAlarmApp:
             print(f"Error loading images: {e}")
 
         # Bind Ctrl + Enter to stop the alarm
-        root.bind()
+        root.bind('<Control-Return>')
         
