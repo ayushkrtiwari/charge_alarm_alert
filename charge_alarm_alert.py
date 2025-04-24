@@ -67,6 +67,6 @@ class ChargeAlarmApp:
         print("Ctrl + Enter key binding added.")
 
         # Bind window close event
-        root.protocol("WM_DELETE_WINDOW")
+        root.protocol("WM_DELETE_WINDOW", self.on_closing)
 
     
