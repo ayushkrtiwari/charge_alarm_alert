@@ -67,5 +67,6 @@ class ChargeAlarmApp:
         print("Ctrl + Enter key binding added.")
 
         # Bind window close event
+        root.protocol()
 
     
