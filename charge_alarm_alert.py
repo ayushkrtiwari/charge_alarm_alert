@@ -63,5 +63,6 @@ class ChargeAlarmApp:
             print(f"Error loading images: {e}")
 
         # Bind Ctrl + Enter to stop the alarm
-        root.bind('<Control-Return>', lambda event: self.stop_alarm_action()) # Dynamic alarm interrupt shortcut
-        
+        root.bind('<Control-Return>', lambda event: self.stop_alarm_action()) # bind key shortcut for alarm interrupt
+
+    
