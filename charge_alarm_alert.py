@@ -64,6 +64,6 @@ class ChargeAlarmApp:
 
         # Bind Ctrl + Enter to stop the alarm
         root.bind('<Control-Return>', lambda event: self.stop_alarm_action())
-        print("Ctrl + Enter key binding added.")
+        print("Ctrl + Enter key binding added.") # print on Ctrl+Enter alarm interrupt event for testing
 
     
