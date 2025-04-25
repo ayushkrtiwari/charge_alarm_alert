@@ -69,4 +69,6 @@ class ChargeAlarmApp:
         # Bind window close event
         root.protocol("WM_DELETE_WINDOW", self.on_closing)
 
-        # class ChargeAlarmApp init part executed
+    def get_battery_percentage(self):
+
+    
