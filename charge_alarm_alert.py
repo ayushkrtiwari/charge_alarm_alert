@@ -70,6 +70,6 @@ class ChargeAlarmApp:
         root.protocol("WM_DELETE_WINDOW", self.on_closing)
 
     def get_battery_percentage(self):
-        psutil.sensors_battery()
+        psutil.sensors_battery() # psutil is a cross-platform library for retrieving information on running processes and system utilization (CPU, memory, disks, network, sensors) in Python
 
     
