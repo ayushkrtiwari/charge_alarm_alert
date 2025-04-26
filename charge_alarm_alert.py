@@ -72,3 +72,7 @@ class ChargeAlarmApp:
     def get_battery_percentage(self):
         battery = psutil.sensors_battery()
         return battery.percent
+
+    def is_charger_connected(self): 
+
+    
