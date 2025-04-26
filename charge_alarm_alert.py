@@ -77,7 +77,4 @@ class ChargeAlarmApp:
         battery = psutil.sensors_battery()
         return battery.power_plugged
 
-    # battery information modules 
     
-    # Alarm modules integration next
-        
