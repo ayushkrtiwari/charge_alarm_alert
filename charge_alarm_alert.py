@@ -75,6 +75,6 @@ class ChargeAlarmApp:
 
     def is_charger_connected(self):
         battery = psutil.sensors_battery()
-        return battery.power_plugged
+        return battery.power_plugged # power_plugged status returned
 
     
