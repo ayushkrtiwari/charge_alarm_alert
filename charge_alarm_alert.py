@@ -78,9 +78,5 @@ class ChargeAlarmApp:
         return battery.power_plugged
 
     def play_alarm(self, sound_file, loop=False):
-        pygame.mixer.music.load() 
-        # The play function starts the music playing, but returns immediately. Then your program reaches it's end,
-        # and the pygame object is automatically destroyed which causes the music to stop.
-
-        # it does play the music if you wait for it before exiting - because then the pygame object isn't destroyed until the while loop finishes.
-    
+        pygame.mixer.music.load(sound_file)
+        
