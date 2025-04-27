@@ -82,4 +82,5 @@ class ChargeAlarmApp:
         # The play function starts the music playing, but returns immediately. Then your program reaches it's end,
         # and the pygame object is automatically destroyed which causes the music to stop.
 
+        # it does play the music if you wait for it before exiting - because then the pygame object isn't destroyed until the while loop finishes.
     
