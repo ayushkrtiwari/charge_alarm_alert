@@ -77,7 +77,7 @@ class ChargeAlarmApp:
         battery = psutil.sensors_battery()
         return battery.power_plugged
 
-    def play_alarm(self):
+    def play_alarm(self, sound_file):
         
 
     
