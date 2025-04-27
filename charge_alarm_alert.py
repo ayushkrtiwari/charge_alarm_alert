@@ -78,6 +78,6 @@ class ChargeAlarmApp:
         return battery.power_plugged
 
     def play_alarm(self, sound_file, loop=False):
-        pygame.mixer
+        pygame.mixer.music
 
     
