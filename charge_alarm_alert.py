@@ -86,4 +86,4 @@ class ChargeAlarmApp:
         self.stop_alarm_button.config(state=tk.NORMAL)
         print("Alarm playing, Stop Alarm button enabled.")
 
-    
+    # play_alarm call definition completed: plays alarm once or loops infinitely
