@@ -82,6 +82,6 @@ class ChargeAlarmApp:
         if loop:
             pygame.mixer.music.play(-1)
         else:
-            pygame.mixer.music.play()
+            pygame.mixer.music.play() # play only once if loop false
 
     
