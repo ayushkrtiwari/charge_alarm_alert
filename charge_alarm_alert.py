@@ -87,4 +87,5 @@ class ChargeAlarmApp:
         print("Alarm playing, Stop Alarm button enabled.")
 
     def stop_alarm_action(self):
+        print()
         
