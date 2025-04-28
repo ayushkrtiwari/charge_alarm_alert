@@ -80,6 +80,5 @@ class ChargeAlarmApp:
     def play_alarm(self, sound_file, loop=False):
         pygame.mixer.music.load(sound_file)
         if loop:
+            pygame.mixer.music.play()
             
-
-    
