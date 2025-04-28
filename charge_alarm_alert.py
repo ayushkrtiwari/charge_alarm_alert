@@ -84,6 +84,6 @@ class ChargeAlarmApp:
         else:
             pygame.mixer.music.play()
         self.stop_alarm_button.config(state=tk.NORMAL)
-        print()
+        print("Alarm playing, Stop Alarm button enabled.")
 
     
