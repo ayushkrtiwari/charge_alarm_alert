@@ -83,6 +83,6 @@ class ChargeAlarmApp:
             pygame.mixer.music.play(-1)
         else:
             pygame.mixer.music.play()
-        stop_alarm_button.config()
+        stop_alarm_button.config(state)
 
     
