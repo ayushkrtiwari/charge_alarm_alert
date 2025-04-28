@@ -86,5 +86,5 @@ class ChargeAlarmApp:
         self.stop_alarm_button.config(state=tk.NORMAL)
         print("Alarm playing, Stop Alarm button enabled.")
 
-    def stop_alarm_action():
+    def stop_alarm_action(self):
         
