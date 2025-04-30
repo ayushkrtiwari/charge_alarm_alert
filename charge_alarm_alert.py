@@ -88,5 +88,7 @@ class ChargeAlarmApp:
 
     def stop_alarm_action(self):
         print("Stop Alarm button pressed.")
-        self.stop_alarm() # stop_alarm called to stop alarm
-        
+        self.stop_alarm()
+        stop_alarm_button
+
+    
