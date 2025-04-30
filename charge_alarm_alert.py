@@ -89,10 +89,7 @@ class ChargeAlarmApp:
     def stop_alarm_action(self):
         print("Stop Alarm button pressed.")
         self.stop_alarm()
-        self.stop_alarm_button.config(state=tk.DISABLED) # Configure resources of a widget.
-
-        # The values for resources are specified as keyword
-        # arguments. To get an overview about
-        # the allowed keyword arguments call the method keys
+        self.stop_alarm_button.config(state=tk.DISABLED)
+        print()
 
     
