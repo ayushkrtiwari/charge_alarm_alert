@@ -90,6 +90,6 @@ class ChargeAlarmApp:
         print("Stop Alarm button pressed.")
         self.stop_alarm()
         self.stop_alarm_button.config(state=tk.DISABLED)
-        print()
+        print("Alarm stopped.")
 
     
