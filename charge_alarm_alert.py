@@ -98,5 +98,5 @@ class ChargeAlarmApp:
             print("Pygame music stopped.")
 
     def start_monitoring(self):
-        self.is_monitoring
+        self.is_monitoring = True
         
