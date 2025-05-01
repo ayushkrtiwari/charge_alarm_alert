@@ -97,4 +97,4 @@ class ChargeAlarmApp:
             pygame.mixer.music.stop()
             print("Pygame music stopped.")
 
-    def start_monitoring():
+    def start_monitoring(): # start monitoring method loops indefinitely
