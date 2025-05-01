@@ -93,3 +93,7 @@ class ChargeAlarmApp:
         print("Alarm stopped.")
 
     def stop_alarm(self):
+        if pygame.mixer.music.get_busy():
+            
+
+    
