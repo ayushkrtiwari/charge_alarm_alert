@@ -98,3 +98,5 @@ class ChargeAlarmApp:
             print("Pygame music stopped.")
 
     def start_monitoring(self):
+        is_monitoring
+        
