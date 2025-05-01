@@ -96,5 +96,5 @@ class ChargeAlarmApp:
         if pygame.mixer.music.get_busy():
             pygame.mixer.music.stop()
             print("Pygame music stopped.")
-    # stop_alarm method created
-    
+
+    def start_monitoring():
