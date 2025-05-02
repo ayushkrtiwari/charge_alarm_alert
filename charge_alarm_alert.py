@@ -101,6 +101,7 @@ class ChargeAlarmApp:
         self.is_monitoring = True
         self.start_button.config(state=tk.DISABLED)
         self.stop_button.config(state=tk.NORMAL)
-        print("Monitoring started.") # Display Monitoring started on CLI
+        print("Monitoring started.")
+        self.charger_disconnected_message_shown
 
     
