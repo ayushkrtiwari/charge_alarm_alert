@@ -107,4 +107,5 @@ class ChargeAlarmApp:
         self.monitor_battery()  # Start the monitoring process immediately
 
     def stop_monitoring(self):
+        self.is_monitoring 
         
