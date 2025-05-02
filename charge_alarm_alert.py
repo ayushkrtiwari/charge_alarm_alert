@@ -98,5 +98,7 @@ class ChargeAlarmApp:
             print("Pygame music stopped.")
 
     def start_monitoring(self):
-        self.is_monitoring = True # is_monitoring remains True till stop_monitoring encountered.
+        self.is_monitoring = True
+        self.start_button.config(state=tk.DISABLED)
+        self.stop_button
         
