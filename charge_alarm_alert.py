@@ -104,6 +104,6 @@ class ChargeAlarmApp:
         print("Monitoring started.")
         self.charger_disconnected_message_shown = False  
         self.alarm_stopped_due_to_disconnection = False  
-        self.monitor_battery() 
+        self.monitor_battery()  # Start the monitoring process immediately
 
     
