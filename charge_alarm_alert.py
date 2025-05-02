@@ -103,5 +103,6 @@ class ChargeAlarmApp:
         self.stop_button.config(state=tk.NORMAL)
         print("Monitoring started.")
         self.charger_disconnected_message_shown = False  
+        self.alarm_stopped_due_to_disconnection = False  
 
     
