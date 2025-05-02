@@ -100,5 +100,7 @@ class ChargeAlarmApp:
     def start_monitoring(self):
         self.is_monitoring = True
         self.start_button.config(state=tk.DISABLED)
-        self.stop_button.config(state=tk.NORMAL) # button widget enabled
-        
+        self.stop_button.config(state=tk.NORMAL)
+        print()
+
+    
