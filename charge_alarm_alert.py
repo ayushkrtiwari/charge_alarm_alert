@@ -109,5 +109,5 @@ class ChargeAlarmApp:
     def stop_monitoring(self):
         self.is_monitoring = False
         self.start_button.config(state=tk.NORMAL)
-        self.stop_button.config
+        self.stop_button.config(state=tk.DISABLED)
         
