@@ -103,10 +103,9 @@ class ChargeAlarmApp:
         self.stop_button.config(state=tk.NORMAL)
         print("Monitoring started.")
         self.charger_disconnected_message_shown = False  
-        self.alarm_stopped_due_to_disconnection = False  # Set this flag to False initially
+        self.alarm_stopped_due_to_disconnection = False 
         self.monitor_battery()  # Start the monitoring process immediately
 
     def stop_monitoring(self):
         self.is_monitoring = False
-        self.start_button.config(state=tk.NORMAL) # Enable start_button
         
