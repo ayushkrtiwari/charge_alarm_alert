@@ -113,5 +113,5 @@ class ChargeAlarmApp:
         self.stop_alarm()
         self.alarm_80_triggered = False
         self.alarm_90_triggered = False
-        self.alarm_100_triggered = False
+        self.alarm_100_triggered = False # Alarm 100 turned off: set False
         
