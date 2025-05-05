@@ -112,5 +112,5 @@ class ChargeAlarmApp:
         self.stop_button.config(state=tk.DISABLED)
         self.stop_alarm()
         self.alarm_80_triggered = False
-        self.alarm_90_triggered 
+        self.alarm_90_triggered = False
         
