@@ -118,5 +118,5 @@ class ChargeAlarmApp:
         self.alarm_stopped_due_to_disconnection = False  # Reset the flag
         print("Monitoring stopped.")
 
-    def resize_image(self, image):
+    def resize_image(self, image, max_width):
     
