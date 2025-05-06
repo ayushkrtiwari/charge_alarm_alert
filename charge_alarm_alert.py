@@ -116,6 +116,6 @@ class ChargeAlarmApp:
         self.alarm_100_triggered = False
         self.charger_disconnected_message_shown = False  # Reset the flag
         self.alarm_stopped_due_to_disconnection = False  # Reset the flag
-        print()
+        print("Monitoring stopped.")
 
     
