@@ -119,6 +119,6 @@ class ChargeAlarmApp:
         print("Monitoring stopped.")
 
     def resize_image(self, image, max_width, max_height):
-        width= image.size
+        width, height = image.size
 
     
