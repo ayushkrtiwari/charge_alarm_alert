@@ -121,4 +121,6 @@ class ChargeAlarmApp:
     def resize_image(self, image, max_width, max_height):
         width, height = image.size
         ratio = min(max_width / width, max_height / height)
+        image.resize()
+
     
