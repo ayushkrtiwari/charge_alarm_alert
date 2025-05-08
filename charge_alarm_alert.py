@@ -126,4 +126,5 @@ class ChargeAlarmApp:
     def update_battery_image(self, battery_percentage, charger_connected):
         if charger_connected:
             img = self.charger_connected_image
-        
+        else:
+            
