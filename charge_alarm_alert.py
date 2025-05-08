@@ -128,5 +128,5 @@ class ChargeAlarmApp:
             img = self.charger_connected_image
         else:
             if battery_percentage >= 100:
-                img = self.battery_images
+                img = self.battery_images['full']
             
