@@ -123,5 +123,5 @@ class ChargeAlarmApp:
         ratio = min(max_width / width, max_height / height)
         return image.resize((int(width * ratio), int(height * ratio)), Image.LANCZOS)
 
-    def update_battery_image(self, battery_percentage, charger_connected): # battery level updation function
-    
+    def update_battery_image(self, battery_percentage, charger_connected):
+        
