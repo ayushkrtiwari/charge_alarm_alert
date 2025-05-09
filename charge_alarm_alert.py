@@ -135,4 +135,5 @@ class ChargeAlarmApp:
                 img = self.battery_images['80']
             elif battery_percentage >= 50:
                 img = self.battery_images['50']
-            
+            else:
+                
