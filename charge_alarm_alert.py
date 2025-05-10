@@ -139,5 +139,5 @@ class ChargeAlarmApp:
                 img = self.battery_images['empty']
 
         resized_img = self.resize_image(img, 420, 620)
-        ImageTk.PhotoImage(resized_img)
+        photo_img = ImageTk.PhotoImage(resized_img)
         
