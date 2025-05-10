@@ -138,5 +138,5 @@ class ChargeAlarmApp:
             else:
                 img = self.battery_images['empty']
 
-        self.resize_image(img, 420, 620)
+        resized_img = self.resize_image(img, 420, 620)
         
