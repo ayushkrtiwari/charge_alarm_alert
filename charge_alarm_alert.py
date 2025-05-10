@@ -139,6 +139,6 @@ class ChargeAlarmApp:
                 img = self.battery_images['empty']
 
         resized_img = self.resize_image(img, 420, 620)
-        photo_img = ImageTk.PhotoImage(resized_img) # The constructor takes either a PIL image, or a mode and a size.
-        # Alternatively, you can use the file or data options to initialize the photo image object.
+        photo_img = ImageTk.PhotoImage(resized_img)
+        self.battery_image_label
         
