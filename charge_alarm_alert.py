@@ -145,5 +145,6 @@ class ChargeAlarmApp:
         print(f"Updated battery image: {battery_percentage}%")
 
     def monitor_battery(self):
-        if self.is_monitoring: # check if event monitoring running
-            
+        if self.is_monitoring:
+            try:
+                
