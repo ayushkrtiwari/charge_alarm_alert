@@ -141,6 +141,6 @@ class ChargeAlarmApp:
         resized_img = self.resize_image(img, 420, 620)
         photo_img = ImageTk.PhotoImage(resized_img)
         self.battery_image_label.config(image=photo_img)
-        self.battery_image_label.image = photo_img  # Keep a reference to avoid garbage collection
+        self.battery_image_label.image = photo_img  # Keep a reference to avoid garbage collection.
 
     
