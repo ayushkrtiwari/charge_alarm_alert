@@ -144,4 +144,5 @@ class ChargeAlarmApp:
         self.battery_image_label.image = photo_img  # Keep a reference to avoid garbage collection
         print(f"Updated battery image: {battery_percentage}%")
 
-    
+    def monitor_battery(self):
+            
