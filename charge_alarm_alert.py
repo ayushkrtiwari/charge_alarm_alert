@@ -146,5 +146,5 @@ class ChargeAlarmApp:
 
     def monitor_battery(self):
         if self.is_monitoring:
-            try:
+            try: # monitoring event code safe execution
                 
