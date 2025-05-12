@@ -148,5 +148,5 @@ class ChargeAlarmApp:
         if self.is_monitoring:
             try:
                 print("Checking battery status...")
-                self.get_battery_percentage()
+                battery_percentage = self.get_battery_percentage()
                 
