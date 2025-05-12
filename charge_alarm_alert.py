@@ -147,5 +147,5 @@ class ChargeAlarmApp:
     def monitor_battery(self):
         if self.is_monitoring:
             try:
-                print()
+                print("Checking battery status...")
                 
