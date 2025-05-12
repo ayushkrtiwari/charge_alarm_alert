@@ -151,4 +151,5 @@ class ChargeAlarmApp:
                 battery_percentage = self.get_battery_percentage()
                 charger_connected = self.is_charger_connected()
                 self.battery_label.config(text=f"Current Battery Percentage: {battery_percentage}%\nCharger Connected: {charger_connected}")
+                self.progress['value'] = battery_percentage
                 
