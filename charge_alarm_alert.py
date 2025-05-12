@@ -149,4 +149,5 @@ class ChargeAlarmApp:
             try:
                 print("Checking battery status...")
                 battery_percentage = self.get_battery_percentage()
+                self.is_charger_connected()
                 
