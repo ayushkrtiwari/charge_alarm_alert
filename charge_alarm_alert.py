@@ -152,6 +152,7 @@ class ChargeAlarmApp:
                 charger_connected = self.is_charger_connected()
                 self.battery_label.config(text=f"Current Battery Percentage: {battery_percentage}%\nCharger Connected: {charger_connected}")
                 self.progress['value'] = battery_percentage
-                self.update_battery_image(battery_percentage, charger_connected) # image updated on specific new battery level
+                self.update_battery_image(battery_percentage, charger_connected)
 
-                
+                if not charger_connected:
+                    
