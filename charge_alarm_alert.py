@@ -155,4 +155,5 @@ class ChargeAlarmApp:
                 self.update_battery_image(battery_percentage, charger_connected)
 
                 if not charger_connected:
-                    
+                    if self.alarm_80_triggered 
+                        
