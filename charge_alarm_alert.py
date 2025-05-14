@@ -160,5 +160,5 @@ class ChargeAlarmApp:
                         if not self.charger_disconnected_message_shown:
                             messagebox.showinfo("Charger Status", "Charger disconnected.\nStopped alarm.")
                             self.charger_disconnected_message_shown = True  # Flag updated
-                        self.alarm_stopped_due_to_disconnection = True  
+                        self.alarm_stopped_due_to_disconnection = True  # flag updated to prevent alarm repetition
                     
