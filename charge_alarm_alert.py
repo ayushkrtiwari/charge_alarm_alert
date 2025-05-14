@@ -158,5 +158,6 @@ class ChargeAlarmApp:
                     if self.alarm_80_triggered or self.alarm_90_triggered or self.alarm_100_triggered:
                         self.stop_alarm()
                         if not self.charger_disconnected_message_shown:
-                            messagebox.showinfo("Charger Status", "Charger disconnected.\nStopped alarm.") # Display concurrent events
-                            
+                            messagebox.showinfo("Charger Status", "Charger disconnected.\nStopped alarm.")
+                            self.charger_disconnected_message_shown = True  # Update the flag
+                        
