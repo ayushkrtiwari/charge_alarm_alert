@@ -157,4 +157,5 @@ class ChargeAlarmApp:
                 if not charger_connected:
                     if self.alarm_80_triggered or self.alarm_90_triggered or self.alarm_100_triggered:
                         self.stop_alarm()
-                        
+                        if not self.charger_disconnected_message_shown:
+                            
