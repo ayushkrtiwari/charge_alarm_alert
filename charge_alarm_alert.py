@@ -163,4 +163,5 @@ class ChargeAlarmApp:
                         self.alarm_stopped_due_to_disconnection = True  # Flag updated to prevent Alarm Repetition
                     self.alarm_80_triggered = False
                     self.alarm_90_triggered = False
-                    
+                    self.alarm_100_triggered = False
+                
