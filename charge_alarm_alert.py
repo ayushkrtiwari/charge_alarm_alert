@@ -165,4 +165,5 @@ class ChargeAlarmApp:
                     self.alarm_90_triggered = False
                     self.alarm_100_triggered = False
                 else:
+                    self.charger_disconnected_message_shown = False  
                     
