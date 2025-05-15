@@ -166,5 +166,5 @@ class ChargeAlarmApp:
                     self.alarm_100_triggered = False
                 else:
                     self.charger_disconnected_message_shown = False  # Reset the flag when charger is connected
-                    self.alarm_stopped_due_to_disconnection = False  
+                    self.alarm_stopped_due_to_disconnection = False  # Reset the flag when charger is connected
                     
