@@ -169,4 +169,5 @@ class ChargeAlarmApp:
                     self.alarm_stopped_due_to_disconnection = False 
                     if battery_percentage >= 100 and not self.alarm_100_triggered:
                         self.play_alarm('siren_100.mp3', loop=True)
+                        self.alarm_100_triggered = True
                         
