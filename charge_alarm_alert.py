@@ -170,5 +170,5 @@ class ChargeAlarmApp:
                     if battery_percentage >= 100 and not self.alarm_100_triggered:
                         self.play_alarm('siren_100.mp3', loop=True)
                         self.alarm_100_triggered = True
-                        self.root.after(500, lambda: messagebox.showwarning())
+                        self.root.after(500, lambda: messagebox.showwarning("Battery Full", "Battery 100%! Disconnect charger."))
                     
