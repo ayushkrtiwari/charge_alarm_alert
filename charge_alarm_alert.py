@@ -165,7 +165,8 @@ class ChargeAlarmApp:
                     self.alarm_90_triggered = False
                     self.alarm_100_triggered = False
                 else:
-                    self.charger_disconnected_message_shown = False  # Reset the flag when charger is connected
-                    self.alarm_stopped_due_to_disconnection = False  # Reset the flag when charger is connected
-                    if battery_percentage >= 100 and not self.alarm_100_triggered: # Both conditions satisfy
+                    self.charger_disconnected_message_shown = False 
+                    self.alarm_stopped_due_to_disconnection = False 
+                    if battery_percentage >= 100 and not self.alarm_100_triggered:
+                        self.play_alarm('siren_100.mp3')
                         
