@@ -165,10 +165,11 @@ class ChargeAlarmApp:
                     self.alarm_90_triggered = False
                     self.alarm_100_triggered = False
                 else:
-                    self.charger_disconnected_message_shown = False 
-                    self.alarm_stopped_due_to_disconnection = False 
+                    self.charger_disconnected_message_shown = False  # Reset the flag when charger is connected
+                    self.alarm_stopped_due_to_disconnection = False  # Reset the flag when charger is connected
                     if battery_percentage >= 100 and not self.alarm_100_triggered:
                         self.play_alarm('siren_100.mp3', loop=True)
                         self.alarm_100_triggered = True
-                        self.root.after(500, lambda: messagebox.showwarning("Battery Full", "Battery 100%! Disconnect charger.\nPress Ctrl+Enter to stop alarm.")) # an anonymous inline function with no parameters. after needs a callable object, not the result of the call, so you wrap the messagebox.showwarning call in lambda
-                    
+                        self.root.after(500, lambda: messagebox.showwarning("Battery Full", "Battery 100%! Disconnect charger.\nPress Ctrl+Enter to stop alarm."))
+                    elif battery_percentage >= 90 :
+                        
