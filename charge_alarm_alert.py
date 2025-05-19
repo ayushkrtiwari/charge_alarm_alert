@@ -177,4 +177,6 @@ class ChargeAlarmApp:
                         self.root.after(500, lambda: messagebox.showwarning("Battery Alert", "Battery above 90%! Disconnect charger.\nPress Ctrl+Enter to stop alarm."))
                     elif battery_percentage >= 80 and battery_percentage < 90 and not self.alarm_80_triggered and not self.alarm_stopped_due_to_disconnection:
                         self.play_alarm('siren_80.mp3')
+                        self.alarm_80_triggered = True
                         
+            
