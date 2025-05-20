@@ -183,6 +183,6 @@ class ChargeAlarmApp:
                 print(f"Error in monitoring battery: {e}")
 
             # Schedule the next battery check after 5 seconds
-            self.root.after()
+            self.root.after(5000)
 
     
