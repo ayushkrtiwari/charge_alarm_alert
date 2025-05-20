@@ -180,4 +180,6 @@ class ChargeAlarmApp:
                         self.alarm_80_triggered = True
                         self.root.after(500, lambda: messagebox.showinfo("Battery Info", "Battery above 80%. Disconnect charger.\nPress Ctrl+Enter to stop alarm."))
             except Exception as e:
-                
+                print()
+
+            
