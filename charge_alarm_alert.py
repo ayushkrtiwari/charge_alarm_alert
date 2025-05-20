@@ -186,3 +186,4 @@ class ChargeAlarmApp:
             self.root.after(5000, self.monitor_battery)
 
     # Application closing code begins
+    # Safe closing procedure
