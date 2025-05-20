@@ -182,4 +182,5 @@ class ChargeAlarmApp:
             except Exception as e:
                 print(f"Error in monitoring battery: {e}")
 
+            # Schedule the next battery check after 5 seconds
             
