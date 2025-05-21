@@ -185,5 +185,5 @@ class ChargeAlarmApp:
             # Schedule the next battery check after 5 seconds
             self.root.after(5000, self.monitor_battery)
 
-    # Application closing code begins
-    # Safe closing procedure
+    def on_closing(self):
+        
