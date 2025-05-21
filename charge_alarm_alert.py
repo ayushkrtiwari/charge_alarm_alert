@@ -186,4 +186,5 @@ class ChargeAlarmApp:
             self.root.after(5000, self.monitor_battery)
 
     def on_closing(self):
+        print("")
         
