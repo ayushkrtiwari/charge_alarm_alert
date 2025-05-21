@@ -190,4 +190,5 @@ class ChargeAlarmApp:
         self.stop_alarm()  # Stop the alarm when the application is closed
         self.root.destroy()  # Close the application
 
-if __name__ == "__main__": # checks if code is main program
+if __name__ == "__main__":
+    # if code executes as main program, then create instance and call the main function
