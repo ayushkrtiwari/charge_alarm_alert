@@ -190,3 +190,4 @@ class ChargeAlarmApp:
         self.stop_alarm()  # Stop the alarm when the application is closed
         self.root.destroy()  # Close the application
 
+if __name__ == "__main__":
