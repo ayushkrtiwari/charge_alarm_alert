@@ -187,4 +187,4 @@ class ChargeAlarmApp:
 
     def on_closing(self):
         print("Application closing...")
-        
+        self.stop_alarm()  
