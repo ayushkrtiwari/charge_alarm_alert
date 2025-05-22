@@ -195,4 +195,4 @@ if __name__ == "__main__":
     app = ChargeAlarmApp(root)
     root.mainloop()
 
-# Author: Ayush Kumar Tiwari 
+# Author: Ayush Kumar Tiwari , IIIT Bhagalpur
