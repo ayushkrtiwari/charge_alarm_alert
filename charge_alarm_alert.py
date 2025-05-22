@@ -191,4 +191,5 @@ class ChargeAlarmApp:
         self.root.destroy()  # Close the application
 
 if __name__ == "__main__":
-    # if code executes as main program, then create instance and call the main function
+    root = tk.Tk()
+    
