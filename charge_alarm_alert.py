@@ -197,3 +197,4 @@ if __name__ == "__main__":
 
 # Author: Ayush Kumar Tiwari , IIIT Bhagalpur
 # Save this file as charge_alarm_alert.py
+# Run below line in terminal 
