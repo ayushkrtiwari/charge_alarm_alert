@@ -199,4 +199,3 @@ if __name__ == "__main__":
 # Save this file as charge_alarm_alert.py
 # Run below line in terminal 
 # pyinstaller --onefile --add-data "empty_battery.png;." --add-data "battery_50.jpg;." --add-data "battery_80.jpg;." --add-data "battery_90.png;." --add-data "full_battery.jpg;." --add-data "charger_connected.jpg;." --add-data "charger_disconnected.png;." --add-data "siren_80.mp3;." --add-data "siren_90.mp3;." --add-data "siren_100.mp3;." charge_alarm_alert.py
-# Run above pyinstaller cmd line
