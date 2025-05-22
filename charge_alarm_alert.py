@@ -196,3 +196,4 @@ if __name__ == "__main__":
     root.mainloop()
 
 # Author: Ayush Kumar Tiwari , IIIT Bhagalpur
+# Save this file as charge_alarm_alert.py
