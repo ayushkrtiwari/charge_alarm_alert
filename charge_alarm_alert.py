@@ -193,4 +193,6 @@ class ChargeAlarmApp:
 if __name__ == "__main__":
     root = tk.Tk()
     app = ChargeAlarmApp(root)
-    
+    # app is a frame, so add it to root. Since it's the 
+    # only widget in root, pack is the simplest method 
+    # to add it to the root window
