@@ -8,4 +8,4 @@
 AppId={{YOUR-GUID-HERE}}
 AppName=Charge Alarm
 AppVersion=1.0
-;Charge Alarm 1.0
+DefaultDirName={pf}\Charge Alarm
