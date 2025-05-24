@@ -10,4 +10,4 @@ AppName=Charge Alarm
 AppVersion=1.0
 DefaultDirName={pf}\Charge Alarm
 DefaultGroupName=Charge Alarm
-OutputDir
+OutputDir=.
