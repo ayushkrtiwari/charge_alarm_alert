@@ -7,3 +7,4 @@
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
 AppId={{YOUR-GUID-HERE}}
 AppName=Charge Alarm
+AppVersion=1.0
