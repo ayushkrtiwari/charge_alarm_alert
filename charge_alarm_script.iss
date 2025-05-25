@@ -15,3 +15,4 @@ OutputBaseFilename=ChargeAlarmSetup
 Compression=lzma
 SolidCompression=yes
 
+[Languages]
