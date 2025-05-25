@@ -16,3 +16,5 @@ Compression=lzma
 SolidCompression=yes
 
 [Languages]
+Name: "english"
+
