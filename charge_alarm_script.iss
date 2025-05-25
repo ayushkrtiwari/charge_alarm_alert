@@ -23,4 +23,4 @@ Source: "dist\charge_alarm_alert.exe"; DestDir: "{app}"; Flags: ignoreversion
 Source: "empty_battery.png"; DestDir: "{app}"; Flags: ignoreversion
 Source: "battery_50.jpg"; DestDir: "{app}"; Flags: ignoreversion
 Source: "battery_80.jpg"; DestDir: "{app}"; Flags: ignoreversion
-Source: "battery_90.png";
+Source: "battery_90.png"; DestDir: "{app}"; 
