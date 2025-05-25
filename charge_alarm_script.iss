@@ -12,3 +12,4 @@ DefaultDirName={pf}\Charge Alarm
 DefaultGroupName=Charge Alarm
 OutputDir=.
 OutputBaseFilename=ChargeAlarmSetup
+Compression
