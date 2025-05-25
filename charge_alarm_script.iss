@@ -13,3 +13,5 @@ DefaultGroupName=Charge Alarm
 OutputDir=.
 OutputBaseFilename=ChargeAlarmSetup
 Compression=lzma
+SolidCompression=yes
+
