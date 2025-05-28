@@ -24,7 +24,4 @@ Source: "empty_battery.png"; DestDir: "{app}"; Flags: ignoreversion
 Source: "battery_50.jpg"; DestDir: "{app}"; Flags: ignoreversion
 Source: "battery_80.jpg"; DestDir: "{app}"; Flags: ignoreversion
 Source: "battery_90.png"; DestDir: "{app}"; Flags: ignoreversion
-;flags:ignoreversion causes no harm on files without resources 
-;(and potentially improves performance in that Inno doesn't have to waste time discovering that they lack resources), 
-;and is almost always what you want for app files 
-;(otherwise you can end up in some weird frankenstate with a mixture of files)
+Source: "full_battery.jpg"; DestDir: "{app}"; Flags: ignoreversion
