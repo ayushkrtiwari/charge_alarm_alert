@@ -26,3 +26,5 @@ Source: "battery_80.jpg"; DestDir: "{app}"; Flags: ignoreversion
 Source: "battery_90.png"; DestDir: "{app}"; Flags: ignoreversion
 Source: "full_battery.jpg"; DestDir: "{app}"; Flags: ignoreversion
 Source: "charger_connected.jpg"; DestDir: "{app}"; Flags: ignoreversion
+Source: "charger_disconnected.png"; DestDir: "{app}"; Flags: ignoreversion
+
