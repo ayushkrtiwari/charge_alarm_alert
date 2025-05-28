@@ -30,4 +30,4 @@ Source: "charger_disconnected.png"; DestDir: "{app}"; Flags: ignoreversion
 Source: "siren_80.mp3"; DestDir: "{app}"; Flags: ignoreversion
 Source: "siren_90.mp3"; DestDir: "{app}"; Flags: ignoreversion
 Source: "siren_100.mp3"; DestDir: "{app}"; Flags: ignoreversion
-; all files added
+; Flags: ignoreversion, installs files irrespective of version
