@@ -32,4 +32,4 @@ Source: "siren_90.mp3"; DestDir: "{app}"; Flags: ignoreversion
 Source: "siren_100.mp3"; DestDir: "{app}"; Flags: ignoreversion
 
 [Icons]
-Name: "{group}\Charge Alarm";
+Name: "{group}\Charge Alarm"; Filename: "{app}\charge_alarm_alert.exe"
