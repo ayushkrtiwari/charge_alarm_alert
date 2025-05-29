@@ -36,3 +36,4 @@ Name: "{group}\Charge Alarm"; Filename: "{app}\charge_alarm_alert.exe"
 Name: "{group}\{cm:UninstallProgram,Charge Alarm}"; Filename: "{uninstallexe}"
 
 [Run]
+Filename: "{app}\charge_alarm_alert.exe"; 
